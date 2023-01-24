@@ -2,26 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wbpack Exercise</title>
+    <title>Todo list app</title>
   </head>
   <body>
-    <main id="container">
-      <div class="box__model">
-        <span class="header">Today's To Do</span>
-        <i class="icon fa-solid fa-arrows-rotate"></i>
+    <main>
+      <div class="titleholder">
+        <p>Today's To Do</p>
+        <p><i class="fa-solid fa-arrows-rotate"></i></p>
       </div>
-      <div class="box__model">
+      <hr />
+      <div class="inputholder">
         <input
-          class="text__input"
+          class="inputfield"
           type="text"
+          name=""
+          id="inputtask"
           placeholder="Add to your list..."
         />
-        <i class="icon fa-solid fa-right-to-bracket"></i>
+        <button id="insertbutton" class="enterbutton">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
       </div>
-      <ul id="list__container"></ul>
-      <button class="clear__btn">Clear all completed</button>
+      <hr />
+      <ul class="todolist" id="list"></ul>
+      <button class="clearbutton" id="clearbutton">Clear all completed</button>
     </main>
   </body>
 </html>
