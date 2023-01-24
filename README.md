@@ -127,7 +127,7 @@ If you like this project, please, share it with your friends.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank...
+I would like to thank Microverse for providing such a valuable resource to people like me who are trying to break into the tech industry. I am forever grateful for the opportunity to be a part of the Microverse community.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
